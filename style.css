@@ -120,13 +120,27 @@
   padding: 0;
   list-style: none;
   font-style: normal;
-  font-weight: bold;
+  font-weight: normal;
   font-size: 12px;
   line-height: 18px;
 }
 
 .intro__span-accent {
   font-weight: bold;
+}
+
+.photo-grid {
+  width: 1184px;
+  height: 671px;
+  margin: 92px auto 0;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 16px;
+}
+
+.photo-grid__item {
+  width: 100%;
 }
 
 .footer {
