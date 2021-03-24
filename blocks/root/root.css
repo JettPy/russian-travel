@@ -1,0 +1,12 @@
+@font-face {
+  font-family: "Inter";
+  src: url("./fonts/Inter-Light.woff") format("woff");
+  font-weight: normal;
+}
+
+.page {
+  margin: 0 auto;
+  min-width: 1280px;
+  font-family: 'Inter', Arial, sans-serif;
+  background-color: #2A2C2F;
+}
