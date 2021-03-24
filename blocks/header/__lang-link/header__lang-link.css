@@ -1,12 +1,12 @@
 .header__lang-link {
   margin-right: 18px;
   text-decoration: none;
-  color: #FFF;
   font-style: normal;
   font-weight: normal;
   font-size: 1.5rem;
   line-height: 1.75;
   text-align: right;
+  color: #FFF;
 }
 
 .header__lang-link:last-child {
