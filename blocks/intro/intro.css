@@ -10,3 +10,12 @@
   }
 
 }
+
+@media screen and (max-width: 800px) {
+
+  .intro {
+    width: 720px;
+    margin-left: 24px;
+  }
+
+}

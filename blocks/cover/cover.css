@@ -11,5 +11,14 @@
     width: 1008px;
     height: 640px;
   }
-  
+
+}
+
+@media screen and (max-width: 800px) {
+
+  .cover {
+    width: 751px;
+    height: 480px;
+  }
+
 }

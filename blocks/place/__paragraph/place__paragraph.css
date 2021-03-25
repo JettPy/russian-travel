@@ -10,3 +10,19 @@
 .place__paragraph:last-child {
   margin: 0;
 }
+
+@media screen and (max-width: 1200px) {
+
+  .place__paragraph {
+    width: 456px;
+  }
+
+}
+
+@media screen and (max-width: 800px) {
+
+  .place__paragraph {
+    width: 352px;
+  }
+
+}

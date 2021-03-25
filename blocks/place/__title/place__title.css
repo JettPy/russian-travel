@@ -6,3 +6,19 @@
   font-size: 4.5rem;
   line-height: 76px;
 }
+
+@media screen and (max-width: 1200px) {
+
+  .place__title {
+    width: 440px;
+  }
+
+}
+
+@media screen and (max-width: 800px) {
+
+  .place__title {
+    width: 340px;
+  }
+
+}
