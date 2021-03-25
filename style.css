@@ -21,11 +21,10 @@
 }
 
 .header {
-  width: 90%;
   max-width: 1500px;
   min-height: 52px;
   padding-top: 28px;
-  margin: auto;
+  margin: 0 48px 0;
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
@@ -38,13 +37,14 @@
 
 .header__lang-link {
   margin-right: 18px;
-  text-decoration: none;
+  text-decoration: underline;
   font-style: normal;
   font-weight: normal;
   font-size: 1.5rem;
   line-height: 1.75;
   text-align: right;
   color: #FFF;
+  transition: opacity 0.2s linear;
 }
 
 .header__lang-link:last-child {
@@ -52,7 +52,7 @@
 }
 
 .header__lang-link:hover {
-  text-decoration: underline;
+  opacity: 0.8;
 }
 
 .lead {
@@ -204,12 +204,13 @@
   font-weight: normal;
   font-size: 18px;
   line-height: 22px;
-  text-decoration: none;
+  text-decoration: underline;
   color: #FFF;
+  transition: opacity 0.2s linear;
 }
 
 .place__link:hover {
-  text-decoration: underline;
+  opacity: 0.8;
 }
 
 .place__paragraph {
@@ -225,6 +226,81 @@
   margin: 0;
 }
 
+.cover {
+  width: 1184px;
+  height: 740px;
+  margin: 92px auto 0;
+  position: relative;
+}
+
+.cover__link {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items: center;
+  text-decoration: none;
+  color: #FFF;
+}
+
+.cover__overlay {
+  width: 100%;
+  height: 100%;
+  background-image: url(./images/cover-trains.jpg);
+  background-size: cover;
+  position: absolute;
+  opacity: 0.8;
+  transition: opacity 1s linear;
+}
+
+.cover__overlay:hover {
+  opacity: 0.3;
+}
+
+.cover__title {
+  width: 560px;
+  margin: 0 0 32px;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 76px;
+  text-align: center;
+  z-index: 1;
+}
+
+.cover__subtitle {
+  width: 360px;
+  margin: 0;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  z-index: 1;
+}
+
 .footer {
-  height: 200px;
+  margin: 92px 48px 24px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__link {
+  margin-right: 18px;
+  text-decoration: none;
+  color: #FFF;
+  transition: opacity 0.2s linear;
+}
+
+.footer__link:last-child {
+  margin: 0;
+}
+
+.footer__link:hover {
+  opacity: 0.8;
+}
+
+.footer__copyright {
+  margin: 0;
 }
