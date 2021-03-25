@@ -4,3 +4,12 @@
   margin: 92px auto 0;
   position: relative;
 }
+
+@media screen and (max-width: 1200px) {
+
+  .cover {
+    width: 1008px;
+    height: 640px;
+  }
+  
+}
