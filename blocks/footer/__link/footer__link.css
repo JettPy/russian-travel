@@ -2,15 +2,10 @@
   margin-right: 18px;
   text-decoration: none;
   color: #FFF;
-  transition: opacity 0.2s linear;
 }
 
 .footer__link:last-child {
   margin: 0;
-}
-
-.footer__link:hover {
-  opacity: 0.8;
 }
 
 @media screen and (max-width: 767px) {

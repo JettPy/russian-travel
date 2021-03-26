@@ -7,15 +7,10 @@
   line-height: 28px;
   text-align: right;
   color: #FFF;
-  transition: opacity 0.2s linear;
 }
 
 .header__lang-link:last-child {
   margin-right: 0;
-}
-
-.header__lang-link:hover {
-  opacity: 0.8;
 }
 
 @media screen and (max-width: 767px) {
