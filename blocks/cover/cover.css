@@ -1,24 +1,37 @@
 .cover {
   width: 1184px;
-  height: 740px;
+  min-height: 740px;
   margin: 92px auto 0;
+  display: flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items: center;
   position: relative;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1279px) {
 
   .cover {
-    width: 1008px;
-    height: 640px;
+    width: 100%;
+    min-height: 640px;
   }
 
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1023px) {
 
   .cover {
-    width: 751px;
-    height: 480px;
+    width: 100%;
+    min-height: 480px;
+  }
+
+}
+
+@media screen and (max-width: 767px) {
+
+  .cover {
+    width: 100%;
+    min-height: 200px;
   }
 
 }

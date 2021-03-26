@@ -14,8 +14,33 @@
 
 .page {
   max-width: 1280px;
+  min-width: 320px;
   margin: 0 auto;
   font-family: 'Inter', Arial, sans-serif;
   background-color: #2A2C2F;
   color: #FFF;
+}
+
+@media screen and (max-width: 1279px) {
+
+  .page {
+    max-width: 1024px;
+  }
+
+}
+
+@media screen and (max-width: 1023px) {
+
+  .page {
+    max-width: 768px;
+  }
+
+}
+
+@media screen and (max-width: 767px) {
+
+  .page {
+    max-width: 320px;
+  }
+
 }

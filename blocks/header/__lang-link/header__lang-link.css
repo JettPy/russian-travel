@@ -3,8 +3,8 @@
   text-decoration: none;
   font-style: normal;
   font-weight: normal;
-  font-size: 1.5rem;
-  line-height: 1.75;
+  font-size: 24px;
+  line-height: 28px;
   text-align: right;
   color: #FFF;
   transition: opacity 0.2s linear;
@@ -16,4 +16,13 @@
 
 .header__lang-link:hover {
   opacity: 0.8;
+}
+
+@media screen and (max-width: 767px) {
+
+  .header__lang-link {
+    font-size: 18px;
+    line-height: 20px;
+  }
+
 }
