@@ -1,15 +1,10 @@
 .place {
-  margin-bottom: 80px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, min-content);
   grid-auto-flow: row;
   row-gap: 48px;
   column-gap: 40px;
-}
-
-.place:last-child {
-  margin: 0;
 }
 
 @media screen and (max-width: 1279px) {
@@ -31,7 +26,6 @@
 @media screen and (max-width: 767px) {
 
   .place {
-    margin-bottom: 50px;
     grid-template-columns: repeat(1, 100%);
     grid-template-rows: repeat(4, min-content);
     row-gap: 32px;

@@ -1,5 +1,4 @@
 .header__lang-link {
-  margin-right: 18px;
   text-decoration: none;
   font-style: normal;
   font-weight: normal;
@@ -7,10 +6,6 @@
   line-height: 28px;
   text-align: right;
   color: #FFF;
-}
-
-.header__lang-link:last-child {
-  margin-right: 0;
 }
 
 @media screen and (max-width: 767px) {

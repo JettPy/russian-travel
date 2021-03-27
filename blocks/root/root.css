@@ -10,7 +10,7 @@
 
   .root {
     max-width: 1279px;
-    min-width: 1024px;
+    min-width: 1000px;
   }
 
 }
@@ -19,7 +19,7 @@
 
   .root {
     max-width: 1023px;
-    min-width: 768px;
+    min-width: 725px;
   }
 
 }
@@ -28,7 +28,7 @@
 
   .root {
     max-width: 767px;
-    min-width: 300px;
+    min-width: 250px;
   }
 
 }

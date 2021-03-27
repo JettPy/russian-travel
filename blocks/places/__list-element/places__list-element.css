@@ -1,0 +1,23 @@
+.places__list-element {
+  margin-bottom: 80px;
+}
+
+.places__list-element:last-child {
+  margin: 0;
+}
+
+@media screen and (max-width: 1023px) {
+
+  .places__list-element {
+    margin-bottom: 73px;
+  }
+
+}
+
+@media screen and (max-width: 767px) {
+
+  .places__list-element {
+    margin-bottom: 50px;
+  }
+
+}
