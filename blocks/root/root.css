@@ -1,18 +1,4 @@
-@font-face {
-  font-family: "Inter";
-  font-style: normal;
-  src: url("./fonts/Inter-Light.woff") format("woff");
-  font-weight: normal;
-}
-
-@font-face {
-  font-family: "Inter";
-  font-style: normal;
-  src: url("./fonts/Inter-Bold.woff") format("woff");
-  font-weight: 900;
-}
-
-.page {
+.root {
   max-width: 1280px;
   margin: 0 auto;
   font-family: 'Inter', Arial, sans-serif;
@@ -22,24 +8,27 @@
 
 @media screen and (max-width: 1279px) {
 
-  .page {
-    max-width: 1024px;
+  .root {
+    max-width: 1279px;
+    min-width: 1024px;
   }
 
 }
 
 @media screen and (max-width: 1023px) {
 
-  .page {
-    max-width: 768px;
+  .root {
+    max-width: 1023px;
+    min-width: 768px;
   }
 
 }
 
 @media screen and (max-width: 767px) {
 
-  .page {
-    max-width: 320px;
+  .root {
+    max-width: 767px;
+    min-width: 300px;
   }
 
 }
