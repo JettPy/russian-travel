@@ -5,3 +5,11 @@
 .footer__list-element:last-child {
   margin: 0;
 }
+
+@media screen and (max-width: 767px) {
+
+  .footer__list-element {
+    margin: 0 0 32px;
+  }
+
+}
