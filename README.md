@@ -15,11 +15,6 @@
 * HTML5
 * CSS3
 
-### Обзор
-* Интро
-* Figma
-* Картинки
-
 ### Прототип
 
 * [Ссылка на хостинг GitHub Pages](https://jettpy.github.io/russian-travel)
